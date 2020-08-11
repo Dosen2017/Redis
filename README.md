@@ -12,3 +12,10 @@
 ### 常用命名：
 1、info memory 查看内存使用情况 <br/>
 2、info keyspace 查看各数据库（0-15）的使用情况<br/>
+
+### redis数据类型的数据结构：
+string    【简单动态字符串】<br/>
+list      【双向链表  压缩列表】<br/>
+hash      【hash  压缩列表】<br/>
+sorted set【压缩列表 跳表】<br/>
+set       【hash 整数数组】<br/>
